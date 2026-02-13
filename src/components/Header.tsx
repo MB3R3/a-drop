@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import adropLogo from "@/assets/adrop-logo.jpg";
 
 const Header = () => {
@@ -7,9 +8,9 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img src={adropLogo} alt="A Drop logo" className="h-10" />
-          </div>
+          </Link>
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
