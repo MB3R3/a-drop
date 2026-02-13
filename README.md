@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+This project is built with:
 
-## Project info
+- a-drop
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Overview
 
-## How can I edit this code?
+a-drop is a component-driven landing web app and UI toolkit built with modern frontend tooling. Its aim is to provide a clean, responsive, and accessible marketing site and a set of reusable UI components that can be reused or adapted in other projects.
 
-There are several ways of editing your application.
+## Deliverables
 
-**Use Lovable**
+- A responsive marketing/landing site implemented in TypeScript + React.
+- A library of reusable, accessible UI components (buttons, forms, navigation, cards, modals, toasts, etc.).
+- A consistent Tailwind CSS-based theme and layout for rapid iteration.
+- A basic test suite for core UI behaviors.
+- Documentation and examples illustrating component usage and page composition.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- Framework: React + TSX components
+- Bundler / Dev Server: Vite
+- Language: TypeScript
+- Styling: Tailwind CSS + PostCSS
+- UI primitives: shadcn-ui (component primitives) and project-specific components
+- Testing: Vitest
+- Tooling: ESLint, TypeScript config, and Vite config for builds and development
 
-**Use your preferred IDE**
+Project sources live under `src/` with components in `src/components` and pages in `src/pages`.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Development
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Install dependencies and start the development server:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+Run tests:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm test
+```
 
-## What technologies are used for this project?
+## Contributing
 
-This project is built with:
+- Keep components small and composable.
+- Add or update tests when changing behavior.
+- Follow existing TypeScript and linting conventions.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+If you'd like, I can add a `CONTRIBUTING.md`, CI configuration, or Storybook examples next.
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Check repository settings or contact the project owner for license details.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
